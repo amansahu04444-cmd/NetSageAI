@@ -1,0 +1,290 @@
+review_id,case_id,timestamp,status,reviewer,reason,ai_root_cause,human_root_cause,ai_confidence,human_confidence,ai_osi_layer,human_osi_layer,is_mock
+REV-7BBE6C,NET-001,2026-08-23T17:19:42.320448+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-7BBE6C,NET-001,2026-08-23T17:19:42.329440+00:00,ACCEPTED,Aman,Looks accurate.,Router sub-interface GigabitEthernet0/0.10 is down.,Router sub-interface GigabitEthernet0/0.10 is down.,0.95,0.95,Layer 3,Layer 3,True
+REV-6C737F,NET-001,2026-08-23T17:19:42.331725+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-6C737F,NET-001,2026-08-23T17:19:42.336194+00:00,ACCEPTED,AuditTester,Audit log validation.,Router sub-interface GigabitEthernet0/0.10 is down.,Router sub-interface GigabitEthernet0/0.10 is down.,0.95,0.95,Layer 3,Layer 3,True
+REV-AA66AB,NET-001,2026-08-23T17:19:42.338295+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-AA66AB,NET-001,2026-08-23T17:19:42.343416+00:00,ACCEPTED,Aman,Approved as presented.,Router sub-interface GigabitEthernet0/0.10 is down.,Router sub-interface GigabitEthernet0/0.10 is down.,0.95,0.95,Layer 3,Layer 3,True
+REV-F2BB0D,NET-001,2026-08-23T17:19:42.347591+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-F2BB0D,NET-001,2026-08-23T17:19:42.350212+00:00,ACCEPTED,Rev1,Approved as presented.,Router sub-interface GigabitEthernet0/0.10 is down.,Router sub-interface GigabitEthernet0/0.10 is down.,0.95,0.95,Layer 3,Layer 3,True
+REV-72365A,NET-001,2026-08-23T17:19:42.352134+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-72365A,NET-001,2026-08-23T17:19:42.355106+00:00,MODIFIED,Rev2,Correction,Router sub-interface GigabitEthernet0/0.10 is down.,Correction test,0.95,0.95,Layer 3,Layer 3,True
+REV-86AFEB,NET-001,2026-08-23T17:19:42.358730+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-86AFEB,NET-001,2026-08-23T17:19:42.363008+00:00,REJECTED,Rev3,Rejection test,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-9DAFBD,NET-001,2026-08-23T17:19:42.365910+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-2E78E4,NET-001,2026-08-23T17:19:42.368901+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-2E78E4,NET-001,2026-08-23T17:19:42.371943+00:00,MODIFIED,Aman,Refined root cause explanation for clarity.,Router sub-interface GigabitEthernet0/0.10 is down.,Human corrected root cause: VLAN 10 interface shutdown.,0.95,1.0,Layer 3,Layer 3,True
+REV-00EA43,NET-001,2026-08-23T17:19:42.375776+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-EE140C,NET-001,2026-08-23T17:19:42.379801+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-752589,NET-001,2026-08-23T17:19:42.383310+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-752589,NET-001,2026-08-23T17:19:42.386626+00:00,REJECTED,Aman,Incorrect root cause identified by AI.,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-49D5D2,NET-001,2026-08-23T17:19:50.567686+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-49D5D2,NET-001,2026-08-23T17:19:50.572190+00:00,ACCEPTED,Aman,Looks accurate.,Router sub-interface GigabitEthernet0/0.10 is down.,Router sub-interface GigabitEthernet0/0.10 is down.,0.95,0.95,Layer 3,Layer 3,True
+REV-10AB53,NET-001,2026-08-23T17:19:50.575710+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-10AB53,NET-001,2026-08-23T17:19:50.579442+00:00,ACCEPTED,AuditTester,Audit log validation.,Router sub-interface GigabitEthernet0/0.10 is down.,Router sub-interface GigabitEthernet0/0.10 is down.,0.95,0.95,Layer 3,Layer 3,True
+REV-73B4B6,NET-001,2026-08-23T17:19:50.582874+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-73B4B6,NET-001,2026-08-23T17:19:50.586585+00:00,ACCEPTED,Aman,Approved as presented.,Router sub-interface GigabitEthernet0/0.10 is down.,Router sub-interface GigabitEthernet0/0.10 is down.,0.95,0.95,Layer 3,Layer 3,True
+REV-6DAD41,NET-001,2026-08-23T17:19:50.590796+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-6DAD41,NET-001,2026-08-23T17:19:50.595059+00:00,ACCEPTED,Rev1,Approved as presented.,Router sub-interface GigabitEthernet0/0.10 is down.,Router sub-interface GigabitEthernet0/0.10 is down.,0.95,0.95,Layer 3,Layer 3,True
+REV-CADB00,NET-001,2026-08-23T17:19:50.601445+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-CADB00,NET-001,2026-08-23T17:19:50.605837+00:00,MODIFIED,Rev2,Correction,Router sub-interface GigabitEthernet0/0.10 is down.,Correction test,0.95,0.95,Layer 3,Layer 3,True
+REV-E2F7B6,NET-001,2026-08-23T17:19:50.609415+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-E2F7B6,NET-001,2026-08-23T17:19:50.613637+00:00,REJECTED,Rev3,Rejection test,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-1A4A30,NET-001,2026-08-23T17:19:50.618666+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-0302BF,NET-001,2026-08-23T17:19:50.623313+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-0302BF,NET-001,2026-08-23T17:19:50.628758+00:00,MODIFIED,Aman,Refined root cause explanation for clarity.,Router sub-interface GigabitEthernet0/0.10 is down.,Human corrected root cause: VLAN 10 interface shutdown.,0.95,1.0,Layer 3,Layer 3,True
+REV-FDDD9E,NET-001,2026-08-23T17:19:50.632744+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-6841AC,NET-001,2026-08-23T17:19:50.636867+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-48DE6D,NET-001,2026-08-23T17:19:50.644869+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-48DE6D,NET-001,2026-08-23T17:19:50.651889+00:00,REJECTED,Aman,Incorrect root cause identified by AI.,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-F065FC,NET-001,2026-08-23T17:20:12.671072+00:00,PENDING,Aman (Lead Engineer),,Rule Violation (interface_status): Interface GigabitEthernet0/0.10 is down,N/A,0.95,N/A,Layer 3,N/A,True
+REV-F065FC,NET-001,2026-08-23T17:20:12.687290+00:00,ACCEPTED,Aman (Lead Engineer),Confirmed: sub-interface Gi0/0.10 is administratively shut down.,Rule Violation (interface_status): Interface GigabitEthernet0/0.10 is down,Rule Violation (interface_status): Interface GigabitEthernet0/0.10 is down,0.95,0.95,Layer 3,Layer 3,True
+REV-B88ED6,NET-008,2026-08-23T17:20:12.710558+00:00,PENDING,Aman (Lead Engineer),,Rule Violation (missing_vlan): Required VLAN 20 is missing from trunk allowed list,N/A,0.95,N/A,Layer 2,N/A,True
+REV-B88ED6,NET-008,2026-08-23T17:20:12.737122+00:00,MODIFIED,Aman (Lead Engineer),Clarified root cause phrasing and increased confidence to 1.0.,Rule Violation (missing_vlan): Required VLAN 20 is missing from trunk allowed list,VLAN 20 is pruned from SW1 Fa0/24 allowed VLAN list. Needs explicit VLAN 20 trunk permit.,0.95,1.0,Layer 2,Layer 2,True
+REV-FD8945,NET-005,2026-08-23T17:20:12.755785+00:00,PENDING,Aman (Lead Engineer),,Potential issue related to: Web server port 80 unreachable from Sales subnet,N/A,0.7,N/A,Layer 4,N/A,True
+REV-FD8945,NET-005,2026-08-23T17:20:12.773297+00:00,REJECTED,Aman (Lead Engineer),Rejected AI diagnosis due to incomplete ACL rule analysis.,Potential issue related to: Web server port 80 unreachable from Sales subnet,N/A,0.7,N/A,Layer 4,N/A,True
+REV-0A1B9A,NET-001,2026-08-23T17:20:36.466050+00:00,PENDING,CLI User,,Rule Violation (interface_status): Interface GigabitEthernet0/0.10 is down,N/A,0.95,N/A,Layer 3,N/A,True
+REV-91E5A5,NET-001,2026-08-23T17:25:35.365342+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-91E5A5,NET-001,2026-08-23T17:25:35.373514+00:00,ACCEPTED,Aman,Looks accurate.,Router sub-interface GigabitEthernet0/0.10 is down.,Router sub-interface GigabitEthernet0/0.10 is down.,0.95,0.95,Layer 3,Layer 3,True
+REV-134C0F,NET-001,2026-08-23T17:25:35.382711+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-134C0F,NET-001,2026-08-23T17:25:35.397120+00:00,ACCEPTED,AuditTester,Audit log validation.,Router sub-interface GigabitEthernet0/0.10 is down.,Router sub-interface GigabitEthernet0/0.10 is down.,0.95,0.95,Layer 3,Layer 3,True
+REV-8C1624,NET-001,2026-08-23T17:25:35.406075+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-8C1624,NET-001,2026-08-23T17:25:35.423750+00:00,ACCEPTED,Aman,Approved as presented.,Router sub-interface GigabitEthernet0/0.10 is down.,Router sub-interface GigabitEthernet0/0.10 is down.,0.95,0.95,Layer 3,Layer 3,True
+REV-77F374,NET-001,2026-08-23T17:25:35.445853+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-77F374,NET-001,2026-08-23T17:25:35.468157+00:00,ACCEPTED,Rev1,Approved as presented.,Router sub-interface GigabitEthernet0/0.10 is down.,Router sub-interface GigabitEthernet0/0.10 is down.,0.95,0.95,Layer 3,Layer 3,True
+REV-F57660,NET-001,2026-08-23T17:25:35.482738+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-F57660,NET-001,2026-08-23T17:25:35.518183+00:00,MODIFIED,Rev2,Correction,Router sub-interface GigabitEthernet0/0.10 is down.,Correction test,0.95,0.95,Layer 3,Layer 3,True
+REV-E957D3,NET-001,2026-08-23T17:25:35.736486+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-E957D3,NET-001,2026-08-23T17:25:36.035187+00:00,REJECTED,Rev3,Rejection test,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-7A1002,NET-001,2026-08-23T17:25:36.131265+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-A5E6AC,NET-001,2026-08-23T17:25:36.147770+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-A5E6AC,NET-001,2026-08-23T17:25:36.201249+00:00,MODIFIED,Aman,Refined root cause explanation for clarity.,Router sub-interface GigabitEthernet0/0.10 is down.,Human corrected root cause: VLAN 10 interface shutdown.,0.95,1.0,Layer 3,Layer 3,True
+REV-DFA5A3,NET-001,2026-08-23T17:25:36.207750+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-24F770,NET-001,2026-08-23T17:25:36.267095+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-D3B166,NET-001,2026-08-23T17:25:36.277043+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-D3B166,NET-001,2026-08-23T17:25:36.287074+00:00,REJECTED,Aman,Incorrect root cause identified by AI.,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-5D47C3,NET-001,2026-08-23T17:26:45.540010+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-5D47C3,NET-001,2026-08-23T17:26:45.562316+00:00,ACCEPTED,Aman,Looks accurate.,Router sub-interface GigabitEthernet0/0.10 is down.,Router sub-interface GigabitEthernet0/0.10 is down.,0.95,0.95,Layer 3,Layer 3,True
+REV-2B3DF4,NET-001,2026-08-23T17:26:45.571908+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-2B3DF4,NET-001,2026-08-23T17:26:45.582680+00:00,ACCEPTED,AuditTester,Audit log validation.,Router sub-interface GigabitEthernet0/0.10 is down.,Router sub-interface GigabitEthernet0/0.10 is down.,0.95,0.95,Layer 3,Layer 3,True
+REV-98AF39,NET-001,2026-08-23T17:26:45.604572+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-98AF39,NET-001,2026-08-23T17:26:45.618157+00:00,ACCEPTED,Aman,Approved as presented.,Router sub-interface GigabitEthernet0/0.10 is down.,Router sub-interface GigabitEthernet0/0.10 is down.,0.95,0.95,Layer 3,Layer 3,True
+REV-53A9C5,NET-001,2026-08-23T17:26:45.633777+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-53A9C5,NET-001,2026-08-23T17:26:45.674579+00:00,ACCEPTED,Rev1,Approved as presented.,Router sub-interface GigabitEthernet0/0.10 is down.,Router sub-interface GigabitEthernet0/0.10 is down.,0.95,0.95,Layer 3,Layer 3,True
+REV-94FCF0,NET-001,2026-08-23T17:26:45.702265+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-94FCF0,NET-001,2026-08-23T17:26:45.728106+00:00,MODIFIED,Rev2,Correction,Router sub-interface GigabitEthernet0/0.10 is down.,Correction test,0.95,0.95,Layer 3,Layer 3,True
+REV-7934DA,NET-001,2026-08-23T17:26:45.757370+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-7934DA,NET-001,2026-08-23T17:26:45.770433+00:00,REJECTED,Rev3,Rejection test,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-04BFC4,NET-001,2026-08-23T17:26:45.783773+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-7D7414,NET-001,2026-08-23T17:26:45.805517+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-7D7414,NET-001,2026-08-23T17:26:45.819772+00:00,MODIFIED,Aman,Refined root cause explanation for clarity.,Router sub-interface GigabitEthernet0/0.10 is down.,Human corrected root cause: VLAN 10 interface shutdown.,0.95,1.0,Layer 3,Layer 3,True
+REV-0AE915,NET-001,2026-08-23T17:26:45.831375+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-2D174E,NET-001,2026-08-23T17:26:45.850468+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-709DCE,NET-001,2026-08-23T17:26:45.864461+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-709DCE,NET-001,2026-08-23T17:26:45.891388+00:00,REJECTED,Aman,Incorrect root cause identified by AI.,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-0EFA75,NET-001,2026-08-23T17:27:35.941584+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-0EFA75,NET-001,2026-08-23T17:27:35.958003+00:00,ACCEPTED,Aman,Looks accurate.,Router sub-interface GigabitEthernet0/0.10 is down.,Router sub-interface GigabitEthernet0/0.10 is down.,0.95,0.95,Layer 3,Layer 3,True
+REV-9EC980,NET-001,2026-08-23T17:27:35.968177+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-9EC980,NET-001,2026-08-23T17:27:35.982561+00:00,ACCEPTED,AuditTester,Audit log validation.,Router sub-interface GigabitEthernet0/0.10 is down.,Router sub-interface GigabitEthernet0/0.10 is down.,0.95,0.95,Layer 3,Layer 3,True
+REV-C2A993,NET-001,2026-08-23T17:27:35.995879+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-C2A993,NET-001,2026-08-23T17:27:36.007387+00:00,ACCEPTED,Aman,Approved as presented.,Router sub-interface GigabitEthernet0/0.10 is down.,Router sub-interface GigabitEthernet0/0.10 is down.,0.95,0.95,Layer 3,Layer 3,True
+REV-AE3A10,NET-001,2026-08-23T17:27:36.022789+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-AE3A10,NET-001,2026-08-23T17:27:36.035470+00:00,ACCEPTED,Rev1,Approved as presented.,Router sub-interface GigabitEthernet0/0.10 is down.,Router sub-interface GigabitEthernet0/0.10 is down.,0.95,0.95,Layer 3,Layer 3,True
+REV-F788F0,NET-001,2026-08-23T17:27:36.045518+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-F788F0,NET-001,2026-08-23T17:27:36.062043+00:00,MODIFIED,Rev2,Correction,Router sub-interface GigabitEthernet0/0.10 is down.,Correction test,0.95,0.95,Layer 3,Layer 3,True
+REV-7399E3,NET-001,2026-08-23T17:27:36.071371+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-7399E3,NET-001,2026-08-23T17:27:36.084648+00:00,REJECTED,Rev3,Rejection test,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-7271F4,NET-001,2026-08-23T17:27:36.101212+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-3BE117,NET-001,2026-08-23T17:27:36.115644+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-3BE117,NET-001,2026-08-23T17:27:36.139462+00:00,MODIFIED,Aman,Refined root cause explanation for clarity.,Router sub-interface GigabitEthernet0/0.10 is down.,Human corrected root cause: VLAN 10 interface shutdown.,0.95,1.0,Layer 3,Layer 3,True
+REV-F1585F,NET-001,2026-08-23T17:27:36.152468+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-F34A39,NET-001,2026-08-23T17:27:36.163196+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-35598B,NET-001,2026-08-23T17:27:36.181334+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-35598B,NET-001,2026-08-23T17:27:36.201811+00:00,REJECTED,Aman,Incorrect root cause identified by AI.,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-F8312F,NET-001,2026-08-23T17:30:35.520590+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-F8312F,NET-001,2026-08-23T17:30:35.535163+00:00,ACCEPTED,Aman,Looks accurate.,Router sub-interface GigabitEthernet0/0.10 is down.,Router sub-interface GigabitEthernet0/0.10 is down.,0.95,0.95,Layer 3,Layer 3,True
+REV-7A8DF0,NET-001,2026-08-23T17:30:35.541853+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-7A8DF0,NET-001,2026-08-23T17:30:35.554155+00:00,ACCEPTED,AuditTester,Audit log validation.,Router sub-interface GigabitEthernet0/0.10 is down.,Router sub-interface GigabitEthernet0/0.10 is down.,0.95,0.95,Layer 3,Layer 3,True
+REV-A48682,NET-001,2026-08-23T17:30:35.563728+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-A48682,NET-001,2026-08-23T17:30:35.580976+00:00,ACCEPTED,Aman,Approved as presented.,Router sub-interface GigabitEthernet0/0.10 is down.,Router sub-interface GigabitEthernet0/0.10 is down.,0.95,0.95,Layer 3,Layer 3,True
+REV-CBAEC8,NET-001,2026-08-23T17:30:35.591900+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-CBAEC8,NET-001,2026-08-23T17:30:35.601863+00:00,ACCEPTED,Rev1,Approved as presented.,Router sub-interface GigabitEthernet0/0.10 is down.,Router sub-interface GigabitEthernet0/0.10 is down.,0.95,0.95,Layer 3,Layer 3,True
+REV-8C4FF0,NET-001,2026-08-23T17:30:35.611116+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-8C4FF0,NET-001,2026-08-23T17:30:35.621297+00:00,MODIFIED,Rev2,Correction,Router sub-interface GigabitEthernet0/0.10 is down.,Correction test,0.95,0.95,Layer 3,Layer 3,True
+REV-38FCF5,NET-001,2026-08-23T17:30:35.629450+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-38FCF5,NET-001,2026-08-23T17:30:35.638725+00:00,REJECTED,Rev3,Rejection test,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-3EFC74,NET-001,2026-08-23T17:30:35.650881+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-619C6A,NET-001,2026-08-23T17:30:35.660601+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-619C6A,NET-001,2026-08-23T17:30:35.672511+00:00,MODIFIED,Aman,Refined root cause explanation for clarity.,Router sub-interface GigabitEthernet0/0.10 is down.,Human corrected root cause: VLAN 10 interface shutdown.,0.95,1.0,Layer 3,Layer 3,True
+REV-A3942B,NET-001,2026-08-23T17:30:35.691338+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-6298AE,NET-001,2026-08-23T17:30:35.707360+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-B8A4A8,NET-001,2026-08-23T17:30:35.720173+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-B8A4A8,NET-001,2026-08-23T17:30:35.733251+00:00,REJECTED,Aman,Incorrect root cause identified by AI.,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-3DF601,NET-001,2026-08-23T17:39:05.636798+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-3DF601,NET-001,2026-08-23T17:39:05.653835+00:00,ACCEPTED,Aman,Looks accurate.,Router sub-interface GigabitEthernet0/0.10 is down.,Router sub-interface GigabitEthernet0/0.10 is down.,0.95,0.95,Layer 3,Layer 3,True
+REV-A58AD6,NET-001,2026-08-23T17:39:05.665500+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-A58AD6,NET-001,2026-08-23T17:39:05.683046+00:00,ACCEPTED,AuditTester,Audit log validation.,Router sub-interface GigabitEthernet0/0.10 is down.,Router sub-interface GigabitEthernet0/0.10 is down.,0.95,0.95,Layer 3,Layer 3,True
+REV-B0122F,NET-001,2026-08-23T17:39:05.700036+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-B0122F,NET-001,2026-08-23T17:39:05.722665+00:00,ACCEPTED,Aman,Approved as presented.,Router sub-interface GigabitEthernet0/0.10 is down.,Router sub-interface GigabitEthernet0/0.10 is down.,0.95,0.95,Layer 3,Layer 3,True
+REV-F68ACA,NET-001,2026-08-23T17:39:05.734535+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-F68ACA,NET-001,2026-08-23T17:39:05.747838+00:00,ACCEPTED,Rev1,Approved as presented.,Router sub-interface GigabitEthernet0/0.10 is down.,Router sub-interface GigabitEthernet0/0.10 is down.,0.95,0.95,Layer 3,Layer 3,True
+REV-984D37,NET-001,2026-08-23T17:39:05.755877+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-984D37,NET-001,2026-08-23T17:39:05.765497+00:00,MODIFIED,Rev2,Correction,Router sub-interface GigabitEthernet0/0.10 is down.,Correction test,0.95,0.95,Layer 3,Layer 3,True
+REV-9A9D1D,NET-001,2026-08-23T17:39:05.771638+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-9A9D1D,NET-001,2026-08-23T17:39:05.781267+00:00,REJECTED,Rev3,Rejection test,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-B9AD94,NET-001,2026-08-23T17:39:05.790461+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-3A39EC,NET-001,2026-08-23T17:39:05.805301+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-3A39EC,NET-001,2026-08-23T17:39:05.824955+00:00,MODIFIED,Aman,Refined root cause explanation for clarity.,Router sub-interface GigabitEthernet0/0.10 is down.,Human corrected root cause: VLAN 10 interface shutdown.,0.95,1.0,Layer 3,Layer 3,True
+REV-98EE76,NET-001,2026-08-23T17:39:05.838370+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-E882E1,NET-001,2026-08-23T17:39:05.850178+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-65126C,NET-001,2026-08-23T17:39:05.864094+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-65126C,NET-001,2026-08-23T17:39:05.880847+00:00,REJECTED,Aman,Incorrect root cause identified by AI.,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-E282CB,NET-001,2026-08-23T17:39:44.039066+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-E282CB,NET-001,2026-08-23T17:39:44.064157+00:00,ACCEPTED,Aman,Looks accurate.,Router sub-interface GigabitEthernet0/0.10 is down.,Router sub-interface GigabitEthernet0/0.10 is down.,0.95,0.95,Layer 3,Layer 3,True
+REV-4476AB,NET-001,2026-08-23T17:39:44.084510+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-4476AB,NET-001,2026-08-23T17:39:44.102123+00:00,ACCEPTED,AuditTester,Audit log validation.,Router sub-interface GigabitEthernet0/0.10 is down.,Router sub-interface GigabitEthernet0/0.10 is down.,0.95,0.95,Layer 3,Layer 3,True
+REV-664351,NET-001,2026-08-23T17:39:44.135156+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-664351,NET-001,2026-08-23T17:39:44.153693+00:00,ACCEPTED,Aman,Approved as presented.,Router sub-interface GigabitEthernet0/0.10 is down.,Router sub-interface GigabitEthernet0/0.10 is down.,0.95,0.95,Layer 3,Layer 3,True
+REV-78D5A9,NET-001,2026-08-23T17:39:44.178587+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-78D5A9,NET-001,2026-08-23T17:39:44.193142+00:00,ACCEPTED,Rev1,Approved as presented.,Router sub-interface GigabitEthernet0/0.10 is down.,Router sub-interface GigabitEthernet0/0.10 is down.,0.95,0.95,Layer 3,Layer 3,True
+REV-422CF4,NET-001,2026-08-23T17:39:44.204126+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-422CF4,NET-001,2026-08-23T17:39:44.216694+00:00,MODIFIED,Rev2,Correction,Router sub-interface GigabitEthernet0/0.10 is down.,Correction test,0.95,0.95,Layer 3,Layer 3,True
+REV-F1E4DE,NET-001,2026-08-23T17:39:44.223744+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-F1E4DE,NET-001,2026-08-23T17:39:44.235733+00:00,REJECTED,Rev3,Rejection test,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-C90D13,NET-001,2026-08-23T17:39:44.250085+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-4646BE,NET-001,2026-08-23T17:39:44.261754+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-4646BE,NET-001,2026-08-23T17:39:44.275646+00:00,MODIFIED,Aman,Refined root cause explanation for clarity.,Router sub-interface GigabitEthernet0/0.10 is down.,Human corrected root cause: VLAN 10 interface shutdown.,0.95,1.0,Layer 3,Layer 3,True
+REV-105DAF,NET-001,2026-08-23T17:39:44.287301+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-6970A2,NET-001,2026-08-23T17:39:44.298475+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-91E0AC,NET-001,2026-08-23T17:39:44.309084+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-91E0AC,NET-001,2026-08-23T17:39:44.323305+00:00,REJECTED,Aman,Incorrect root cause identified by AI.,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-259F17,NET-001,2026-08-23T17:42:18.884505+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-259F17,NET-001,2026-08-23T17:42:18.907589+00:00,ACCEPTED,Aman,Looks accurate.,Router sub-interface GigabitEthernet0/0.10 is down.,Router sub-interface GigabitEthernet0/0.10 is down.,0.95,0.95,Layer 3,Layer 3,True
+REV-4E4E1B,NET-001,2026-08-23T17:42:18.922905+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-4E4E1B,NET-001,2026-08-23T17:42:18.943155+00:00,ACCEPTED,AuditTester,Audit log validation.,Router sub-interface GigabitEthernet0/0.10 is down.,Router sub-interface GigabitEthernet0/0.10 is down.,0.95,0.95,Layer 3,Layer 3,True
+REV-50F516,NET-001,2026-08-23T17:42:18.956722+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-50F516,NET-001,2026-08-23T17:42:18.970680+00:00,ACCEPTED,Aman,Approved as presented.,Router sub-interface GigabitEthernet0/0.10 is down.,Router sub-interface GigabitEthernet0/0.10 is down.,0.95,0.95,Layer 3,Layer 3,True
+REV-025406,NET-001,2026-08-23T17:42:18.987233+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-025406,NET-001,2026-08-23T17:42:19.014533+00:00,ACCEPTED,Rev1,Approved as presented.,Router sub-interface GigabitEthernet0/0.10 is down.,Router sub-interface GigabitEthernet0/0.10 is down.,0.95,0.95,Layer 3,Layer 3,True
+REV-E5B5E6,NET-001,2026-08-23T17:42:19.033301+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-E5B5E6,NET-001,2026-08-23T17:42:19.044813+00:00,MODIFIED,Rev2,Correction,Router sub-interface GigabitEthernet0/0.10 is down.,Correction test,0.95,0.95,Layer 3,Layer 3,True
+REV-1F9D85,NET-001,2026-08-23T17:42:19.054996+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-1F9D85,NET-001,2026-08-23T17:42:19.066832+00:00,REJECTED,Rev3,Rejection test,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-797B8D,NET-001,2026-08-23T17:42:19.082392+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-8B3F97,NET-001,2026-08-23T17:42:19.103128+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-8B3F97,NET-001,2026-08-23T17:42:19.124245+00:00,MODIFIED,Aman,Refined root cause explanation for clarity.,Router sub-interface GigabitEthernet0/0.10 is down.,Human corrected root cause: VLAN 10 interface shutdown.,0.95,1.0,Layer 3,Layer 3,True
+REV-D77FDC,NET-001,2026-08-23T17:42:19.137101+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-4C90DE,NET-001,2026-08-23T17:42:19.147438+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-7DEDA0,NET-001,2026-08-23T17:42:19.162099+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-7DEDA0,NET-001,2026-08-23T17:42:19.182123+00:00,REJECTED,Aman,Incorrect root cause identified by AI.,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-8F2133,NET-001,2026-08-23T17:43:11.026171+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-8F2133,NET-001,2026-08-23T17:43:11.056351+00:00,ACCEPTED,Aman,Looks accurate.,Router sub-interface GigabitEthernet0/0.10 is down.,Router sub-interface GigabitEthernet0/0.10 is down.,0.95,0.95,Layer 3,Layer 3,True
+REV-D2AE5F,NET-001,2026-08-23T17:43:11.073380+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-D2AE5F,NET-001,2026-08-23T17:43:11.092734+00:00,ACCEPTED,AuditTester,Audit log validation.,Router sub-interface GigabitEthernet0/0.10 is down.,Router sub-interface GigabitEthernet0/0.10 is down.,0.95,0.95,Layer 3,Layer 3,True
+REV-DBB09F,NET-001,2026-08-23T17:43:11.116011+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-DBB09F,NET-001,2026-08-23T17:43:11.127923+00:00,ACCEPTED,Aman,Approved as presented.,Router sub-interface GigabitEthernet0/0.10 is down.,Router sub-interface GigabitEthernet0/0.10 is down.,0.95,0.95,Layer 3,Layer 3,True
+REV-018C27,NET-001,2026-08-23T17:43:11.140783+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-018C27,NET-001,2026-08-23T17:43:11.156468+00:00,ACCEPTED,Rev1,Approved as presented.,Router sub-interface GigabitEthernet0/0.10 is down.,Router sub-interface GigabitEthernet0/0.10 is down.,0.95,0.95,Layer 3,Layer 3,True
+REV-F7EA9B,NET-001,2026-08-23T17:43:11.168722+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-F7EA9B,NET-001,2026-08-23T17:43:11.184673+00:00,MODIFIED,Rev2,Correction,Router sub-interface GigabitEthernet0/0.10 is down.,Correction test,0.95,0.95,Layer 3,Layer 3,True
+REV-A962B6,NET-001,2026-08-23T17:43:11.195676+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-A962B6,NET-001,2026-08-23T17:43:11.207993+00:00,REJECTED,Rev3,Rejection test,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-09B719,NET-001,2026-08-23T17:43:11.223398+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-B4BDAC,NET-001,2026-08-23T17:43:11.243715+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-B4BDAC,NET-001,2026-08-23T17:43:11.270268+00:00,MODIFIED,Aman,Refined root cause explanation for clarity.,Router sub-interface GigabitEthernet0/0.10 is down.,Human corrected root cause: VLAN 10 interface shutdown.,0.95,1.0,Layer 3,Layer 3,True
+REV-1ED6E1,NET-001,2026-08-23T17:43:11.281700+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-D1FAEC,NET-001,2026-08-23T17:43:11.294089+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-DBCF35,NET-001,2026-08-23T17:43:11.311666+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-DBCF35,NET-001,2026-08-23T17:43:11.328608+00:00,REJECTED,Aman,Incorrect root cause identified by AI.,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-0A639D,NET-001,2026-08-23T17:52:33.862343+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-0A639D,NET-001,2026-08-23T17:52:33.885542+00:00,ACCEPTED,Aman,Looks accurate.,Router sub-interface GigabitEthernet0/0.10 is down.,Router sub-interface GigabitEthernet0/0.10 is down.,0.95,0.95,Layer 3,Layer 3,True
+REV-0DC70F,NET-001,2026-08-23T17:52:33.909070+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-0DC70F,NET-001,2026-08-23T17:52:33.945812+00:00,ACCEPTED,AuditTester,Audit log validation.,Router sub-interface GigabitEthernet0/0.10 is down.,Router sub-interface GigabitEthernet0/0.10 is down.,0.95,0.95,Layer 3,Layer 3,True
+REV-E0B6F9,NET-001,2026-08-23T17:52:33.973289+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-E0B6F9,NET-001,2026-08-23T17:52:33.992299+00:00,ACCEPTED,Aman,Approved as presented.,Router sub-interface GigabitEthernet0/0.10 is down.,Router sub-interface GigabitEthernet0/0.10 is down.,0.95,0.95,Layer 3,Layer 3,True
+REV-06B580,NET-001,2026-08-23T17:52:34.020732+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-06B580,NET-001,2026-08-23T17:52:34.038345+00:00,ACCEPTED,Rev1,Approved as presented.,Router sub-interface GigabitEthernet0/0.10 is down.,Router sub-interface GigabitEthernet0/0.10 is down.,0.95,0.95,Layer 3,Layer 3,True
+REV-0A8F9F,NET-001,2026-08-23T17:52:34.052222+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-0A8F9F,NET-001,2026-08-23T17:52:34.072360+00:00,MODIFIED,Rev2,Correction,Router sub-interface GigabitEthernet0/0.10 is down.,Correction test,0.95,0.95,Layer 3,Layer 3,True
+REV-6F067E,NET-001,2026-08-23T17:52:34.086418+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-6F067E,NET-001,2026-08-23T17:52:34.102999+00:00,REJECTED,Rev3,Rejection test,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-C858B1,NET-001,2026-08-23T17:52:34.120625+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-BC07FF,NET-001,2026-08-23T17:52:34.144459+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-BC07FF,NET-001,2026-08-23T17:52:34.172085+00:00,MODIFIED,Aman,Refined root cause explanation for clarity.,Router sub-interface GigabitEthernet0/0.10 is down.,Human corrected root cause: VLAN 10 interface shutdown.,0.95,1.0,Layer 3,Layer 3,True
+REV-129BB7,NET-001,2026-08-23T17:52:34.187804+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-4F8047,NET-001,2026-08-23T17:52:34.199507+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-340041,NET-001,2026-08-23T17:52:34.218662+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-340041,NET-001,2026-08-23T17:52:34.241180+00:00,REJECTED,Aman,Incorrect root cause identified by AI.,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-1E6A89,NET-008,2026-08-23T18:00:04.979781+00:00,PENDING,CLI User,,Rule Violation (missing_vlan): Required VLAN 20 is missing from trunk allowed list,N/A,0.95,N/A,Layer 2,N/A,True
+REV-1E6A89,NET-008,2026-08-23T18:04:03.803781+00:00,MODIFIED,Aman (Lead Engineer),Clarified the root cause and added a verification command.,Rule Violation (missing_vlan): Required VLAN 20 is missing from trunk allowed list,"Trunk allowed VLAN list is missing VLAN 20, preventing VLAN 20 traffic from crossing the trunk.",0.95,1.0,Layer 2,Layer 2,True
+REV-DB29B2,NET-005,2026-08-23T18:05:10.074582+00:00,PENDING,CLI User,,Potential issue related to: Web server port 80 unreachable from Sales subnet,N/A,0.7,N/A,Layer 4,N/A,True
+REV-DB29B2,NET-005,2026-08-23T18:05:34.980424+00:00,REJECTED,Aman (Lead Engineer),Rejected because the AI diagnosis is incomplete; the ACL evidence requires human verification before accepting the proposed root cause.,Potential issue related to: Web server port 80 unreachable from Sales subnet,N/A,0.7,N/A,Layer 4,N/A,True
+REV-6A9421,NET-012,2026-08-23T18:07:27.633897+00:00,PENDING,CLI User,,Rule Violation (missing_route): Passive interface enabled on active OSPF link blocking routes,N/A,0.95,N/A,Layer 3,N/A,True
+REV-6A9421,NET-012,2026-08-23T18:07:58.317142+00:00,MODIFIED,Aman (Lead Engineer),Refined OSPF root cause and added explicit neighbor and route verification steps.,Rule Violation (missing_route): Passive interface enabled on active OSPF link blocking routes,OSPF neighbor formation is blocked because Serial0/1/0 is configured as a passive interface.,0.95,0.98,Layer 3,Layer 3,True
+REV-B345DB,NET-001,2026-08-23T18:15:49.761116+00:00,PENDING,Network Engineer,,Rule Violation (interface_status): Interface GigabitEthernet0/0.10 is down,N/A,0.95,N/A,Layer 3,N/A,True
+REV-36328C,NET-008,2026-08-23T18:17:22.971438+00:00,PENDING,Network Engineer,,Rule Violation (missing_vlan): Required VLAN 20 is missing from trunk allowed list,N/A,0.95,N/A,Layer 2,N/A,True
+REV-0D2AD2,NET-009,2026-08-23T18:17:45.453856+00:00,PENDING,Network Engineer,,Rule Violation (gateway_mismatch): Default gateway IP misconfiguration,N/A,0.95,N/A,Layer 3,N/A,True
+REV-491227,NET-005,2026-08-23T18:23:03.916759+00:00,PENDING,CLI User,,Potential issue related to: Web server port 80 unreachable from Sales subnet,N/A,0.7,N/A,Layer 4,N/A,True
+REV-B65CC1,NET-001,2026-08-23T18:23:15.295739+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-B65CC1,NET-001,2026-08-23T18:23:15.313797+00:00,ACCEPTED,Aman,Looks accurate.,Router sub-interface GigabitEthernet0/0.10 is down.,Router sub-interface GigabitEthernet0/0.10 is down.,0.95,0.95,Layer 3,Layer 3,True
+REV-7C83A1,NET-001,2026-08-23T18:23:15.329229+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-7C83A1,NET-001,2026-08-23T18:23:15.348802+00:00,ACCEPTED,AuditTester,Audit log validation.,Router sub-interface GigabitEthernet0/0.10 is down.,Router sub-interface GigabitEthernet0/0.10 is down.,0.95,0.95,Layer 3,Layer 3,True
+REV-563D1E,NET-001,2026-08-23T18:23:15.372627+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-563D1E,NET-001,2026-08-23T18:23:15.389280+00:00,ACCEPTED,Aman,Approved as presented.,Router sub-interface GigabitEthernet0/0.10 is down.,Router sub-interface GigabitEthernet0/0.10 is down.,0.95,0.95,Layer 3,Layer 3,True
+REV-82548C,NET-001,2026-08-23T18:23:15.408287+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-82548C,NET-001,2026-08-23T18:23:15.429943+00:00,ACCEPTED,Rev1,Approved as presented.,Router sub-interface GigabitEthernet0/0.10 is down.,Router sub-interface GigabitEthernet0/0.10 is down.,0.95,0.95,Layer 3,Layer 3,True
+REV-DF0212,NET-001,2026-08-23T18:23:15.442639+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-DF0212,NET-001,2026-08-23T18:23:15.458063+00:00,MODIFIED,Rev2,Correction,Router sub-interface GigabitEthernet0/0.10 is down.,Correction test,0.95,0.95,Layer 3,Layer 3,True
+REV-C00377,NET-001,2026-08-23T18:23:15.470603+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-C00377,NET-001,2026-08-23T18:23:15.486077+00:00,REJECTED,Rev3,Rejection test,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-0DAA0C,NET-001,2026-08-23T18:23:15.507392+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-E2B3E0,NET-001,2026-08-23T18:23:15.524890+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-E2B3E0,NET-001,2026-08-23T18:23:15.546925+00:00,MODIFIED,Aman,Refined root cause explanation for clarity.,Router sub-interface GigabitEthernet0/0.10 is down.,Human corrected root cause: VLAN 10 interface shutdown.,0.95,1.0,Layer 3,Layer 3,True
+REV-C48CB7,NET-001,2026-08-23T18:23:15.568748+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-1C6C61,NET-001,2026-08-23T18:23:15.591468+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-3D5B0F,NET-001,2026-08-23T18:23:15.618668+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-3D5B0F,NET-001,2026-08-23T18:23:15.642514+00:00,REJECTED,Aman,Incorrect root cause identified by AI.,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-5C6470,NET-001,2026-08-23T18:34:18.310812+00:00,PENDING,Network Engineer,,Rule Violation (interface_status): Interface GigabitEthernet0/0.10 is down,N/A,0.95,N/A,Layer 3,N/A,True
+REV-FDB412,NET-001,2026-08-23T18:42:50.820734+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-FDB412,NET-001,2026-08-23T18:42:50.881510+00:00,ACCEPTED,Aman,Looks accurate.,Router sub-interface GigabitEthernet0/0.10 is down.,Router sub-interface GigabitEthernet0/0.10 is down.,0.95,0.95,Layer 3,Layer 3,True
+REV-431B3A,NET-001,2026-08-23T18:42:50.996916+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-431B3A,NET-001,2026-08-23T18:42:51.074745+00:00,ACCEPTED,AuditTester,Audit log validation.,Router sub-interface GigabitEthernet0/0.10 is down.,Router sub-interface GigabitEthernet0/0.10 is down.,0.95,0.95,Layer 3,Layer 3,True
+REV-AE8970,NET-001,2026-08-23T18:42:51.113315+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-AE8970,NET-001,2026-08-23T18:42:51.183298+00:00,ACCEPTED,Aman,Approved as presented.,Router sub-interface GigabitEthernet0/0.10 is down.,Router sub-interface GigabitEthernet0/0.10 is down.,0.95,0.95,Layer 3,Layer 3,True
+REV-F5E904,NET-001,2026-08-23T18:42:51.273649+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-F5E904,NET-001,2026-08-23T18:42:51.519207+00:00,ACCEPTED,Rev1,Approved as presented.,Router sub-interface GigabitEthernet0/0.10 is down.,Router sub-interface GigabitEthernet0/0.10 is down.,0.95,0.95,Layer 3,Layer 3,True
+REV-00ED24,NET-001,2026-08-23T18:42:51.593271+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-00ED24,NET-001,2026-08-23T18:42:51.711345+00:00,MODIFIED,Rev2,Correction,Router sub-interface GigabitEthernet0/0.10 is down.,Correction test,0.95,0.95,Layer 3,Layer 3,True
+REV-13FC1D,NET-001,2026-08-23T18:42:51.790739+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-13FC1D,NET-001,2026-08-23T18:42:52.019271+00:00,REJECTED,Rev3,Rejection test,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-50F47D,NET-001,2026-08-23T18:42:52.100487+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-92C99D,NET-001,2026-08-23T18:42:52.180908+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-92C99D,NET-001,2026-08-23T18:42:52.260930+00:00,MODIFIED,Aman,Refined root cause explanation for clarity.,Router sub-interface GigabitEthernet0/0.10 is down.,Human corrected root cause: VLAN 10 interface shutdown.,0.95,1.0,Layer 3,Layer 3,True
+REV-9B6FC9,NET-001,2026-08-23T18:42:52.362014+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-B4FD7F,NET-001,2026-08-23T18:42:52.445985+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-813157,NET-001,2026-08-23T18:42:52.637422+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-813157,NET-001,2026-08-23T18:42:52.830631+00:00,REJECTED,Aman,Incorrect root cause identified by AI.,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-B37599,NET-001,2026-08-23T18:46:44.188641+00:00,PENDING,Network Engineer,,"Router sub-interface GigabitEthernet0/0.10 is administratively down, disabling the default gateway for VLAN 10 and breaking inter-VLAN routing.",N/A,1.0,N/A,Layer 2/3,N/A,False
+REV-B37599,NET-001,2026-08-23T18:49:21.446583+00:00,ACCEPTED,Aman,Approved as accurate.,"Router sub-interface GigabitEthernet0/0.10 is administratively down, disabling the default gateway for VLAN 10 and breaking inter-VLAN routing.","Router sub-interface GigabitEthernet0/0.10 is administratively down, disabling the default gateway for VLAN 10 and breaking inter-VLAN routing.",1.0,1.0,Layer 2/3,Layer 2/3,False
+REV-72BC75,NET-001,2026-08-23T18:49:45.501560+00:00,PENDING,Network Engineer,,Router sub-interface GigabitEthernet0/0.10 (VLAN 10 Gateway) is administratively down.,N/A,0.99,N/A,Layer 3,N/A,False
+REV-6B88F8,NET-001,2026-08-23T18:57:33.130489+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-6B88F8,NET-001,2026-08-23T18:57:33.174387+00:00,ACCEPTED,Aman,Looks accurate.,Router sub-interface GigabitEthernet0/0.10 is down.,Router sub-interface GigabitEthernet0/0.10 is down.,0.95,0.95,Layer 3,Layer 3,True
+REV-1704EB,NET-001,2026-08-23T18:57:33.209777+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-1704EB,NET-001,2026-08-23T18:57:33.277249+00:00,ACCEPTED,AuditTester,Audit log validation.,Router sub-interface GigabitEthernet0/0.10 is down.,Router sub-interface GigabitEthernet0/0.10 is down.,0.95,0.95,Layer 3,Layer 3,True
+REV-97A1E9,NET-001,2026-08-23T18:57:33.308532+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-97A1E9,NET-001,2026-08-23T18:57:33.363594+00:00,ACCEPTED,Aman,Approved as presented.,Router sub-interface GigabitEthernet0/0.10 is down.,Router sub-interface GigabitEthernet0/0.10 is down.,0.95,0.95,Layer 3,Layer 3,True
+REV-69651C,NET-001,2026-08-23T18:57:33.408235+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-69651C,NET-001,2026-08-23T18:57:33.475921+00:00,ACCEPTED,Rev1,Approved as presented.,Router sub-interface GigabitEthernet0/0.10 is down.,Router sub-interface GigabitEthernet0/0.10 is down.,0.95,0.95,Layer 3,Layer 3,True
+REV-6C287A,NET-001,2026-08-23T18:57:33.557570+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-6C287A,NET-001,2026-08-23T18:57:33.632290+00:00,MODIFIED,Rev2,Correction,Router sub-interface GigabitEthernet0/0.10 is down.,Correction test,0.95,0.95,Layer 3,Layer 3,True
+REV-45693B,NET-001,2026-08-23T18:57:33.701775+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-45693B,NET-001,2026-08-23T18:57:33.792267+00:00,REJECTED,Rev3,Rejection test,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-BEFFEF,NET-001,2026-08-23T18:57:33.857106+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-BDB119,NET-001,2026-08-23T18:57:33.912826+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-BDB119,NET-001,2026-08-23T18:57:33.993804+00:00,MODIFIED,Aman,Refined root cause explanation for clarity.,Router sub-interface GigabitEthernet0/0.10 is down.,Human corrected root cause: VLAN 10 interface shutdown.,0.95,1.0,Layer 3,Layer 3,True
+REV-A6C4E7,NET-001,2026-08-23T18:57:34.048629+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-A8F213,NET-001,2026-08-23T18:57:34.094521+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-8A3042,NET-001,2026-08-23T18:57:34.144720+00:00,PENDING,N/A,,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-8A3042,NET-001,2026-08-23T18:57:34.195286+00:00,REJECTED,Aman,Incorrect root cause identified by AI.,Router sub-interface GigabitEthernet0/0.10 is down.,N/A,0.95,N/A,Layer 3,N/A,True
+REV-00D119,NET-005,2026-08-23T19:06:15.863272+00:00,PENDING,Network Engineer,,Potential issue related to: Web server port 80 unreachable from Sales subnet,N/A,0.7,N/A,Layer 4,N/A,True
+REV-B9B01B,NET-005,2026-08-23T19:06:44.692502+00:00,PENDING,Network Engineer,,Extended Access Control List (ACL) 101 explicitly denies TCP port 80 (HTTP) traffic from the Sales subnet (192.168.10.0/24) to the Web Server (10.0.0.10).,N/A,0.98,N/A,Layer 4,N/A,False

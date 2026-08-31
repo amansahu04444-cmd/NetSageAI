@@ -1,0 +1,169 @@
+{
+  "REV-B37599": {
+    "review_id": "REV-B37599",
+    "case_id": "NET-001",
+    "status": "ACCEPTED",
+    "ai_diagnosis": {
+      "case_id": "NET-001",
+      "root_cause": "Router sub-interface GigabitEthernet0/0.10 is administratively down, disabling the default gateway for VLAN 10 and breaking inter-VLAN routing.",
+      "diagnosis_status": "CONFIRMED",
+      "confidence": 1.0,
+      "osi_layer": "Layer 2/3",
+      "evidence": [
+        "GigabitEthernet0/0.10 is administratively down line protocol is down",
+        "Interface GigabitEthernet0/0.10 is down (Evidence: Output shows: GigabitEthernet0/0.10 is administratively down)"
+      ],
+      "rule_checker_findings": [
+        {
+          "rule": "interface_status",
+          "status": "ERROR",
+          "message": "Interface GigabitEthernet0/0.10 is down (Evidence: Output shows: GigabitEthernet0/0.10 is administratively down)"
+        }
+      ],
+      "next_command": null,
+      "fix_steps": [
+        "Step 1: Enter global configuration mode on the router: configure terminal",
+        "Step 2: Enter sub-interface configuration mode: interface GigabitEthernet0/0.10",
+        "Step 3: Enable the interface: no shutdown",
+        "Step 4: Verify main interface status if needed: interface GigabitEthernet0/0 -> no shutdown",
+        "Step 5: Verify sub-interface status: show ip interface brief"
+      ],
+      "explanation": "PC1 relies on the router sub-interface GigabitEthernet0/0.10 as its default gateway for VLAN 10 to reach other subnets such as VLAN 30. Both the show command output and the deterministic rule checker explicitly state that GigabitEthernet0/0.10 is administratively down, confirming that the interface was shut down manually or disabled by default.",
+      "is_mock": false
+    },
+    "human_diagnosis": {
+      "case_id": "NET-001",
+      "root_cause": "Router sub-interface GigabitEthernet0/0.10 is administratively down, disabling the default gateway for VLAN 10 and breaking inter-VLAN routing.",
+      "diagnosis_status": "CONFIRMED",
+      "confidence": 1.0,
+      "osi_layer": "Layer 2/3",
+      "evidence": [
+        "GigabitEthernet0/0.10 is administratively down line protocol is down",
+        "Interface GigabitEthernet0/0.10 is down (Evidence: Output shows: GigabitEthernet0/0.10 is administratively down)"
+      ],
+      "rule_checker_findings": [
+        {
+          "rule": "interface_status",
+          "status": "ERROR",
+          "message": "Interface GigabitEthernet0/0.10 is down (Evidence: Output shows: GigabitEthernet0/0.10 is administratively down)"
+        }
+      ],
+      "next_command": null,
+      "fix_steps": [
+        "Step 1: Enter global configuration mode on the router: configure terminal",
+        "Step 2: Enter sub-interface configuration mode: interface GigabitEthernet0/0.10",
+        "Step 3: Enable the interface: no shutdown",
+        "Step 4: Verify main interface status if needed: interface GigabitEthernet0/0 -> no shutdown",
+        "Step 5: Verify sub-interface status: show ip interface brief"
+      ],
+      "explanation": "PC1 relies on the router sub-interface GigabitEthernet0/0.10 as its default gateway for VLAN 10 to reach other subnets such as VLAN 30. Both the show command output and the deterministic rule checker explicitly state that GigabitEthernet0/0.10 is administratively down, confirming that the interface was shut down manually or disabled by default.",
+      "is_mock": false
+    },
+    "reviewer": "Aman",
+    "reason": "Approved as accurate.",
+    "created_at": "2026-08-23T18:46:44.188641+00:00",
+    "reviewed_at": "2026-08-23T18:49:21.446583+00:00"
+  },
+  "REV-72BC75": {
+    "review_id": "REV-72BC75",
+    "case_id": "NET-001",
+    "status": "PENDING",
+    "ai_diagnosis": {
+      "case_id": "NET-001",
+      "root_cause": "Router sub-interface GigabitEthernet0/0.10 (VLAN 10 Gateway) is administratively down.",
+      "diagnosis_status": "CONFIRMED",
+      "confidence": 0.99,
+      "osi_layer": "Layer 3",
+      "evidence": [
+        "GigabitEthernet0/0.10 is administratively down line protocol is down",
+        "[ERROR] interface_status: Interface GigabitEthernet0/0.10 is down (Evidence: Output shows: GigabitEthernet0/0.10 is administratively down)"
+      ],
+      "rule_checker_findings": [
+        {
+          "rule": "interface_status",
+          "status": "ERROR",
+          "message": "Interface GigabitEthernet0/0.10 is down (Evidence: Output shows: GigabitEthernet0/0.10 is administratively down)"
+        }
+      ],
+      "next_command": null,
+      "fix_steps": [
+        "Enter configuration mode: configure terminal",
+        "Select the affected sub-interface: interface GigabitEthernet0/0.10",
+        "Enable the interface: no shutdown",
+        "Verify interface state: show ip interface brief"
+      ],
+      "explanation": "PC1 relies on sub-interface GigabitEthernet0/0.10 as its default gateway to reach other networks such as VLAN 30. Direct evidence from show output and deterministic rule checker findings confirms that GigabitEthernet0/0.10 is administratively shut down, preventing traffic from being routed off VLAN 10.",
+      "is_mock": false
+    },
+    "human_diagnosis": null,
+    "reviewer": "Network Engineer",
+    "reason": null,
+    "created_at": "2026-08-23T18:49:45.501560+00:00",
+    "reviewed_at": null
+  },
+  "REV-00D119": {
+    "review_id": "REV-00D119",
+    "case_id": "NET-005",
+    "status": "PENDING",
+    "ai_diagnosis": {
+      "case_id": "NET-005",
+      "root_cause": "Potential issue related to: Web server port 80 unreachable from Sales subnet",
+      "diagnosis_status": "LIKELY",
+      "confidence": 0.7,
+      "osi_layer": "Layer 4",
+      "evidence": [
+        "Web server port 80 unreachable from Sales subnet",
+        "access-list 101 deny tcp 192.168.10.0 0.0.0.255 host 10.0.0.10 eq 80"
+      ],
+      "rule_checker_findings": [],
+      "next_command": "show access-lists",
+      "fix_steps": [
+        "Inspect case evidence for: Web server port 80 unreachable from Sales subnet",
+        "Execute recommended verification command: show access-lists"
+      ],
+      "explanation": "[MOCK MODE] Diagnostic generated offline in mock mode (GEMINI_API_KEY is not set).",
+      "is_mock": true
+    },
+    "human_diagnosis": null,
+    "reviewer": "Network Engineer",
+    "reason": null,
+    "created_at": "2026-08-23T19:06:15.863272+00:00",
+    "reviewed_at": null
+  },
+  "REV-B9B01B": {
+    "review_id": "REV-B9B01B",
+    "case_id": "NET-005",
+    "status": "PENDING",
+    "ai_diagnosis": {
+      "case_id": "NET-005",
+      "root_cause": "Extended Access Control List (ACL) 101 explicitly denies TCP port 80 (HTTP) traffic from the Sales subnet (192.168.10.0/24) to the Web Server (10.0.0.10).",
+      "diagnosis_status": "CONFIRMED",
+      "confidence": 0.98,
+      "osi_layer": "Layer 4",
+      "evidence": [
+        "access-list 101 deny tcp 192.168.10.0 0.0.0.255 host 10.0.0.10 eq 80",
+        "Web server port 80 unreachable from Sales subnet"
+      ],
+      "rule_checker_findings": [
+        {
+          "rule": "DETERMINISTIC_CONFIG_CHECK",
+          "status": "PASS",
+          "message": "No deterministic rule violations detected."
+        }
+      ],
+      "next_command": null,
+      "fix_steps": [
+        "Step 1: Remove the denying entry from ACL 101 using command 'no access-list 101 deny tcp 192.168.10.0 0.0.0.255 host 10.0.0.10 eq 80'",
+        "Step 2: Add a permit entry allowing HTTP access: 'access-list 101 permit tcp 192.168.10.0 0.0.0.255 host 10.0.0.10 eq 80'",
+        "Step 3: Verify the updated access list rules with 'show access-lists 101'"
+      ],
+      "explanation": "The output of the show command explicitly displays rule 'access-list 101 deny tcp 192.168.10.0 0.0.0.255 host 10.0.0.10 eq 80', which directly blocks TCP traffic on destination port 80 from the 192.168.10.0/24 network to 10.0.0.10. This directly matches the reported symptom.",
+      "is_mock": false
+    },
+    "human_diagnosis": null,
+    "reviewer": "Network Engineer",
+    "reason": null,
+    "created_at": "2026-08-23T19:06:44.692502+00:00",
+    "reviewed_at": null
+  }
+}
